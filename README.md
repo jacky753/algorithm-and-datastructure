@@ -8,11 +8,11 @@ C++ syntax learning here
 https://atcoder.jp/contests/APG4b/tasks
 
 おすすめサイト
-サイト	                日本語	    特徴	              おすすめ用途
-AtCoder APG4b	        ◎	    解説＋演習＋自動採点	    最初にやる
-LearnCpp.com	        ×	    C++をかなり体系的に解説	    APG4bの次
-cppreference 日本語版   ◎	    C++仕様・STLのリファレンス	分からない機能を調べる
-learn-cpp.org	        ×	    ブラウザ上で実行できる	    軽い演習
+- サイト	                日本語	    特徴	              おすすめ用途
+- AtCoder APG4b	        ◎	    解説＋演習＋自動採点	    最初にやる
+- LearnCpp.com	        ×	    C++をかなり体系的に解説	    APG4bの次
+- cppreference 日本語版   ◎	    C++仕様・STLのリファレンス	分からない機能を調べる
+- learn-cpp.org	        ×	    ブラウザ上で実行できる	    軽い演習
 
 # Design programs
 https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-programs/
@@ -20,8 +20,8 @@ https://www.learncpp.com/cpp-tutorial/how-to-design-your-first-programs/
 
 
 # compile C++ source code
-compile: g++ sample.cpp -o sample
-execute: ./sample
+- compile: g++ sample.cpp -o sample
+- execute: ./sample
 
 # Makefileを使う
 ファイル数が増えると毎回入力するのが面倒なので、
@@ -38,37 +38,37 @@ make
 ./program
 
 # よく使うコンパイルオプション
-C++17
-g++ -std=c++17 hello.cpp -o hello
-C++20
-g++ -std=c++20 hello.cpp -o hello
+- C++17
+	- g++ -std=c++17 hello.cpp -o hello
+- C++20
+	- g++ -std=c++20 hello.cpp -o hello
 
 最近は C++20 を使うことが多いです。
 
-警告を表示
-g++ -Wall -Wextra hello.cpp -o hello
+- 警告を表示
+- g++ -Wall -Wextra hello.cpp -o hello
 
 研究・開発ではほぼ必須です。
 
-デバッグ情報付き
-g++ -g hello.cpp -o hello
+- デバッグ情報付き
+- g++ -g hello.cpp -o hello
 
 gdbでデバッグ可能になります。
 
-最適化
-g++ -O2 hello.cpp -o hello
+- 最適化
+- g++ -O2 hello.cpp -o hello
 
 高速化されます。
 
-実務でよく使う形
-g++ -std=c++20 -Wall -Wextra -O2 main.cpp -o main
+- 実務でよく使う形
+- g++ -std=c++20 -Wall -Wextra -O2 main.cpp -o main
 
 
 # C++ の演算子について
-C++の**文法としての「演算子（operator）」**について
-C++では、演算子は「値に対して計算・比較・代入などの操作を行う記号」です。かなり種類が多いので、まず全体像を整理すると理解しやすいです。
+- C++の**文法としての「演算子（operator）」**について
+- C++では、演算子は「値に対して計算・比較・代入などの操作を行う記号」です。かなり種類が多いので、まず全体像を整理すると理解しやすいです。
 ## 1. 算術演算子
-数値計算で使います。
+- 数値計算で使います。
 
 ```cpp
 int a = 10;
